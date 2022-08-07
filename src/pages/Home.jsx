@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Main from "../components/main/Main";
+import "../styles/home.css";
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      {/* sidebar si es dektop, header si no lo es */}
+      <Main />
+    </>
   )
 }
 
