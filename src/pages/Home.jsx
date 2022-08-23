@@ -1,13 +1,14 @@
 import React from 'react';
 import Main from "../components/main/Main";
+import Sidebar from '../components/sidebar/Sidebar';
 import "../styles/home.css";
 
 const Home = () => {
   return (
-    <>
-      {/* sidebar si es dektop, header si no lo es */}
+    <div className='home-container'>
+      <Sidebar />
       <Main />
-    </>
+    </div>
   )
 }
 

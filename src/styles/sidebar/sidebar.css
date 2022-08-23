@@ -1,0 +1,81 @@
+.sidebar-container{
+    background-color: var(--fondo2);
+    width: 22vw;
+}
+
+.perfil{
+    /* background-color: aqua; */
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.avatar{
+    /* background-color: brown; */
+    width: 100px;
+    height: 100px;
+    border: 4px solid var(--fondo1);
+    border-radius: 50%;
+    background-image: url("../../assets/perfil.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.enlaces{
+    /* background-color: blueviolet; */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.enlace{
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.enlace:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.copy{
+    /* background-color: chartreuse; */
+    height: 8vh;
+    font-size: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textyping-container{
+    color: palevioletred;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    border-right: 3px solid;
+    width: 10ch; /* tiene que ser el número de caracteres que tienen la línea */
+
+    animation: typing 1.8s steps(12) infinite alternate, blink .5s infinite alternate;
+    overflow: hidden;
+}
+
+@keyframes typing{
+    from{
+        width: 0
+    }
+}
+
+@keyframes blink{
+    50% {
+        border-color: transparent
+    }
+}
