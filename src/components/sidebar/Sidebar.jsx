@@ -14,7 +14,7 @@ const Sidebar = () => {
       <div className='enlaces'>
         <Links name="Home" path="/"/>
         <Links name="Sobre mí" path="/SobreMi"/>
-        <Links name="Portfolio" path="/Portfolio"/>
+        <Links name="Portafolio" path="/Portafolio"/>
         <Links name="Contacto" path="/Contacto"/>
       </div>
       <div className='copy'>&copy; 2022 Todos los derechos reservados</div>

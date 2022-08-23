@@ -1,13 +1,15 @@
 import React from 'react'
 import Sidebar from '../components/sidebar/Sidebar'
 
-const AboutMe = () => {
+const Portafolio = () => {
   return (
     <div>
       <Sidebar />
-      <div>AboutMe</div>
+      <div>
+        Portafolio
+      </div>
     </div>
   )
 }
 
-export default AboutMe
+export default Portafolio
